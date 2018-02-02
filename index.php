@@ -28,7 +28,7 @@ ob_flush();
       echo $parentobject->name;
       echo "<p class='show'><br />This is the info from a extended class and protected(property)</p>";
       echo $extendobject->message();
-      echo "<p class='show'><br />This is the info from a extended class and private object(property) but public function</p>";
+      echo "<p class='show'><br />This is the info from a parent class and private object(property) but public function</p>";
       echo $parentobject->secret();
        ?>
   </body>
